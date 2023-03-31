@@ -1,0 +1,36 @@
+.photosContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 12px 0;
+  text-align: center;
+  justify-items: center;
+  padding: 30px;
+  min-height: 90vh;
+  width: 100%;
+}
+
+@media (max-width: 1020px) {
+  .photosContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 780px) {
+  .photosContainer{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .photosContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+
+
+
+
+

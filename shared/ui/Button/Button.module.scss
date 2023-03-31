@@ -1,0 +1,41 @@
+.Button {
+  cursor: pointer;
+  padding: 6px 15px;
+  background: none;
+  border: none;
+}
+
+.danger {
+  color: red;
+}
+
+.default {
+  color: gray
+}
+
+.success {
+  color: green;
+}
+
+.size_m {
+  font: var(--font-m);
+}
+
+.size_l {
+  font: var(--font-l);
+}
+
+.size_xl {
+  font: var(--font-xl);
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.inline_btn {
+  display: inline;
+}
+.block_btn {
+  display: block;
+}
