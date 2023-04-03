@@ -6,6 +6,7 @@ export const PhotoCard = (props: IPhoto) => {
     const {
         brand, url, status, title,
     } = props;
+
     return (
         <div className={cls.photoCard}>
             <div className={cls.img}>
